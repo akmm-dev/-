@@ -143,13 +143,6 @@ header .head{
     }
 
 }
-@media (min-width:900px) {
-    .number-body {
-        width: 900px;
-        height: 900px;
-    }
-
-}
 footer {
     width: 100%;
     height: 10%;
