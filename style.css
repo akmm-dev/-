@@ -102,7 +102,7 @@ header .head{
 footer {
     width: 90%;
     height: 5vh;
-    position: fixed;
+    position:-webkit-sticky;
     bottom: 0vh;
     margin:2% 5%;
     display: flex;
