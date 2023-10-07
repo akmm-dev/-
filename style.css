@@ -37,8 +37,8 @@ header .head{
     text-align: justify;
     text-justify: auto;
     font-weight: 700;
-    color:rgb(0, 229, 255);
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.685);
+    color:rgb(210, 30, 30);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.485);
     text-align: center;
 }
 .head p{
@@ -46,8 +46,8 @@ header .head{
     font-size: 90%;
     text-align: justify;
     text-justify: auto;
-    color: rgb(30, 156, 210);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.508);
+    color: rgb(210, 30, 30);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.508);
     text-align: center;
 }
 .question-body{
@@ -55,6 +55,7 @@ header .head{
     height: 80%;
     overflow: scroll;
     /* display: none; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 .question{
     height: 3.5em;
@@ -64,7 +65,8 @@ header .head{
     margin: 2% auto;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535); */
+    border: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 10px;
 }
 .questionNo{
@@ -79,8 +81,8 @@ header .head{
     width: 90%;
 }
 .number-body{
-    width: 100%;
-    height: 80vh;
+    width: 99%;
+    height: 85vh;
     margin: 2% auto;
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +94,7 @@ header .head{
     font-size: 70%;
     width:calc(100% / 9 - 10px);
     height:calc(100% /9 - 15px);
-    margin:5px;
+    margin: 0 2px;
     border: 0px 0px 10px black;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.618);
     border-radius: 10px;
@@ -103,9 +105,7 @@ header .head{
 footer {
     width: 100%;
     height: 10%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    position: fixed;
-    bottom: 0vh;
+    top: 0%;
     margin:auto;
     display: flex;
     justify-content:flex-start;
