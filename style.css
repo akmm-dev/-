@@ -81,8 +81,8 @@ header .head{
     width: 90%;
 }
 .number-body{
-    width: 99%;
-    height: 85vh;
+    width: 300px;
+    height: 300px;
     margin: 2% auto;
     display: flex;
     flex-wrap: wrap;
@@ -92,20 +92,67 @@ header .head{
 }
 .number{
     font-size: 70%;
-    width:calc(100% / 9 - 10px);
-    height:calc(100% /9 - 15px);
-    margin: 0 2px;
+    width:calc(100% / 9 );
+    height:calc(100% / 9 );
+    margin:0;
     border: 0px 0px 10px black;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.618);
-    border-radius: 10px;
+    border: 0.5px solid black;
     display: flex;
     justify-content: center;
     align-items: center ;
 }
+@media (min-width:400px) {
+    .number-body {
+            width: 400px;
+            height: 400px;
+        }
+    
+}
+@media (min-width:400px) {
+    .number-body {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+@media (min-width:500px) {
+    .number-body {
+        width: 500px;
+        height: 500px;
+    }
+
+}
+@media (min-width:600px) {
+    .number-body {
+        width: 600px;
+        height: 600px;
+    }
+
+}
+@media (min-width:700px) {
+    .number-body {
+        width: 700px;
+        height: 700px;
+    }
+
+}
+@media (min-width:800px) {
+    .number-body {
+        width: 800px;
+        height: 800px;
+    }
+
+}
+@media (min-width:900px) {
+    .number-body {
+        width: 900px;
+        height: 900px;
+    }
+
+}
 footer {
     width: 100%;
     height: 10%;
-    top: 0%;
     margin:auto;
     display: flex;
     justify-content:flex-start;
